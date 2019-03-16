@@ -1,0 +1,7 @@
+# additonal files
+resources/
+
+# vscode Code Runner extension
+tempCodeRunnerFile.*
+
+# End of Rard
