@@ -5,3 +5,6 @@ resources/
 tempCodeRunnerFile.*
 
 # End of Rard
+
+# Node.js
+node_modules/
