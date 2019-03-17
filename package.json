@@ -1,0 +1,27 @@
+{
+  "name": "js-techdegree-project6",
+  "version": "1.0.0",
+  "description": "A Static Node and Express Site - Developer Portfolio",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rliess/js-techdegree-project6.git"
+  },
+  "author": "Reinhard Liess <reinhard.liess@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rliess/js-techdegree-project6/issues"
+  },
+  "homepage": "https://github.com/rliess/js-techdegree-project6#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-request-language": "^1.1.15",
+    "pug": "^2.0.3"
+  }
+}

@@ -1,10 +1,9 @@
 # additonal files
 resources/
 
-# vscode Code Runner extension
+# vscode
 tempCodeRunnerFile.*
-
-# End of Rard
+.vscode/settings.json
 
 # Node.js
 node_modules/
