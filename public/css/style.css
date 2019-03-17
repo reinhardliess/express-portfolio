@@ -84,7 +84,7 @@ a:hover{
 
 .portfolio-breadcrumb{
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -147,4 +147,23 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+/* RL - additional styles */
+
+.lang-buttons {
+  float: right;
+  padding-top: 6px;
+  height: 50px;
+  /* border: 1px solid red; */
+}
+
+.lang-buttons img {
+  width: 32px;
+  height: auto;
+}
+
+.back-button, p.spacer {
+  display: inline-block;
+  padding-top: 15px;
 }
