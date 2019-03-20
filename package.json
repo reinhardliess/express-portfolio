@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/rliess/js-techdegree-project6#readme",
   "dependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.16.1",
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "express-request-language": "^1.1.15",

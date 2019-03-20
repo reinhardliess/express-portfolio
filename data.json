@@ -1,0 +1,66 @@
+{
+  "assets": {
+    "en": {
+      "portfolio-title": "My Portfolio",
+      "bio-sidebar": "A short abstract about me",
+      "portfolio-description": "Some text",
+      "back-button": "Back",
+      "learn-more": "Learn More",
+      "name": "Reinhard Liess",
+      "job-title": "Full-Stack JavaScript Developer",
+      "portfolio-bio": "My bio",
+      "contact-info": "Contact info",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Express"
+      ]
+    },
+    "de": {
+      "portfolio-title": "Mein Portfolio",
+      "bio-sidebar": "Kurze Biografie",
+      "portfolio-description": "Hier steht die Beschreibung ...",
+      "back-button": "Zurück",
+      "learn-more": "Mehr erfahren",
+      "name": "Reinhard Ließ",
+      "job-title": "Full-Stack JavaScript Entwickler",
+      "portfolio-bio": "Meine Biografie",
+      "contact-info": "Kontaktinformationen",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Express"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": 0,
+      "en": {
+        "project-name": "A Random Quote Generator",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "de": {
+        "project-name": "Ein Zufallsgenerator für Zitate",
+        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "live-link": "https://rliess.github.io/js-techdegree-project1/",
+      "github-link": "https://github.com/rliess/js-techdegree-project1",
+      "image-urls": [
+        ""
+      ]
+    }
+  ]
+}

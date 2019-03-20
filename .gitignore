@@ -4,6 +4,7 @@ resources/
 # vscode
 tempCodeRunnerFile.*
 .vscode/settings.json
+*.http
 
 # Node.js
 node_modules/
