@@ -23,10 +23,10 @@ block content
       //- a(href='#')
       //-   img.thumbnail(src='https://placehold.it/550x550')
       //-   h5 Title
-      each val, index in projects
+      each project, index in projects
         .cell
           a(href=`/projects/${index}`)
-            img.thumbnail(src=`${projects[index]['image-urls'][0]}`)
-            h5 #{projects[index][language]['project-name']}
+            img.thumbnail(src=`${project['image-urls'][0]}`)
+            h5 #{project[language]['project-name']}
 
 

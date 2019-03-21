@@ -2,36 +2,30 @@ extends layout.pug
 
 block content
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← #{assets[language]['back-button']}
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Name
+        h1 #{assets[language]['name']}
 
         //- Feel free personalize the title below
         p.lead.text-light
-          | Full Stack JavaScript Developer.
+          | #{assets[language]['job-title']}
 
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | #{assets[language]['portfolio-bio']}
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+        h6 #{assets[language]['skills']['skills-text']}
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc.
-          li Etc.
-        h6 Contact Info
+          each skill in assets[language]['skills']['skills-list']
+            li= skill
+        h6 #{assets[language]['contact-info']}
 
         //- Add your own contact info
         ul
@@ -40,8 +34,7 @@ block content
 
         //- Add URLs to the hrefs below to link to your social media accounts.
         //- optionally make dynamic, add animated buttons with Twitter/Github logo
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        a.button.expanded(href='https://github.com/rliess') GitHub
+        a.button.expanded(href='https://twitter.com/rliessdev') Twitter
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← #{assets[language]['back-button']}

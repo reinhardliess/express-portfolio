@@ -16,8 +16,7 @@ const requestLanguage = require('express-request-language');
 const { assets, projects } = require('./data.json');
 
 const {port = 3000} = process.env;
-
-const	app	=	express()
+const	app	=	express();
 
 // Register required middleware
 app.use(cookieParser());
@@ -36,15 +35,15 @@ app.use(requestLanguage({
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
-
 app.get('/',	(req,	res)	=>	{
-  // console.log(req.header('Accept-Language'));
-  // console.log(req.language)
   const { language } = req;
-  console.log({language});
-  console.log(assets[language]['name']);
-  res.render('index', { assets, language });
-})
+  res.render('index', { assets, projects, language });
+});
+
+app.get('/about',	(req,	res)	=>	{
+  const { language } = req;
+  res.render('about', { assets, language });
+});
 
 const	server	=	app.listen(port,	()	=>	{
   console.log('Listening on port %s',	server.address().port);

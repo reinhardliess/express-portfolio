@@ -10,12 +10,17 @@
       "job-title": "Full-Stack JavaScript Developer",
       "portfolio-bio": "My bio",
       "contact-info": "Contact info",
-      "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Express"
-      ]
+      "skills": {
+        "skills-text": "Skills",
+        "skills-list": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "jQuery",
+          "Express"
+        ]
+      }
+
     },
     "de": {
       "portfolio-title": "Mein Portfolio",
@@ -64,7 +69,8 @@
         "/static/img/proj1-screen2.jpg",
         "/static/img/proj1-screen3.jpg"
       ]
-    },{
+    },
+    {
       "id": 1,
       "en": {
         "project-name": "List Pagination and Filtering",
@@ -72,7 +78,8 @@
         "technologies": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "DOM manipulation"
         ]
       },
       "de": {
@@ -92,7 +99,8 @@
         "/static/img/proj2-screen2.jpg",
         "/static/img/proj2-screen3.jpg"
       ]
-    }, {
+    },
+    {
       "id": 2,
       "en": {
         "project-name": "Interactive Form",
@@ -100,7 +108,9 @@
         "technologies": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "jQuery",
+          "Regular Expressions"
         ]
       },
       "de": {
@@ -120,7 +130,8 @@
         "/static/img/proj3-screen2.jpg",
         "/static/img/proj3-screen3.jpg"
       ]
-    }, {
+    },
+    {
       "id": 3,
       "en": {
         "project-name": "OOP Game Show App",
@@ -149,7 +160,8 @@
         "/static/img/proj4-screen2.jpg",
         "/static/img/proj4-screen3.jpg"
       ]
-    }, {
+    },
+    {
       "id": 4,
       "en": {
         "project-name": "Public API Requests",
@@ -158,7 +170,8 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "Fetch API"
+          "Fetch API",
+          "Object-Oriented Programming"
         ]
       },
       "de": {
