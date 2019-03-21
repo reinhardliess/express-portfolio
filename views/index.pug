@@ -30,7 +30,7 @@ block content
       //- a(href='#')
       //-   img.thumbnail(src='https://placehold.it/550x550')
       //-   h5 Title
-      each project, index in projects
+      each project, index in [...projects].reverse()
         .cell
           a(href=`/projects/${index}`)
             img.thumbnail(src=`${project['image-urls'][0]}`)

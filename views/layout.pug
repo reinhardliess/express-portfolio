@@ -17,14 +17,11 @@ html(class="no-js" lang=`${language}` dir="ltr")
             img.thumbnail(src='/static/img/profile-pic.jpg')
           .cell.auto
 
-            //- Add your name here.
             h5 #{assets[language]['name']}
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
               | #{assets[language]['bio-sidebar']}
 
-            //- Add about page route to the href below.
             a(href='/about') #{assets[language]['learn-more']} →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -32,7 +29,7 @@ html(class="no-js" lang=`${language}` dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
+          //- This is for the mobile screen sized version.
           span.title-bar-title #{assets[language]['name']}
       block content
 
