@@ -26,7 +26,7 @@ app.use(requestLanguage({
   languages: ['de', 'en'],
   cookie: {
     name: 'language',
-    options: { maxAge: 24*3600*1000 },
+    options: { maxAge: 365.25*24*3600*1000 },
     url: '/languages/{language}'
   }
 }));
@@ -35,23 +35,52 @@ app.use(requestLanguage({
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
+// root route
 app.get('/',	(req,	res)	=>	{
   const { language } = req;
   res.render('index', { assets, projects, language });
 });
 
+// about route
 app.get('/about',	(req,	res)	=>	{
   const { language } = req;
   res.render('about', { assets, language });
 });
 
+// projects route
 app.get('/projects/:id',	(req,	res)	=>	{
   const { language } = req;
   const { id } = req.params;
-  res.render('about', { assets, projects, language, id });
+  // redirects to root, if project id is not within range
+  if (id >= 0 && id <= projects.length - 1) {
+    res.render('project', { assets, projects, language, id });
+  } else {
+    console.log(`Attempt to access non-existant resource: /projects/${id}.`)
+    res.redirect('/')
+  }
+});
+
+// handles 404 (not found) errors
+app.use((req, res, next) => {
+  const errMsg = assets[req.language]['error-handling']['404']
+    .replace('$1', req.path)
+    .replace('$2', req.hostname);
+
+  const error = new Error(errMsg);
+  error.status = 404;
+  console.log(errMsg);
+  next(error);
+});
+
+// main error handler
+app.use((error, req, res, next) => {
+  const { language } = req;
+  error.status = error.status ? error.status : 500;
+  res.status(error.status);
+  res.render('error', { language, assets, projects, error });
 });
 
 const	server	=	app.listen(port,	()	=>	{
   console.log('Listening on port %s',	server.address().port);
-})
+});
 

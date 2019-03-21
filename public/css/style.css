@@ -167,3 +167,21 @@ a:hover{
   display: inline-block;
   padding-top: 15px;
 }
+
+/* .show-error {
+  display: flex;
+  flex-flow: wrap row;
+} */
+
+.show-error p {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.show-error h1 {
+  font-size: 2em;
+}
+
+.show-error h2 {
+  font-size: 1.5em;
+}
