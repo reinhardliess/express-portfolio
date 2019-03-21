@@ -59,7 +59,124 @@
       "live-link": "https://rliess.github.io/js-techdegree-project1/",
       "github-link": "https://github.com/rliess/js-techdegree-project1",
       "image-urls": [
-        ""
+        "/static/img/proj1-landing.JPG",
+        "/static/img/proj1-screen1.jpg",
+        "/static/img/proj1-screen2.jpg",
+        "/static/img/proj1-screen3.jpg"
+      ]
+    },{
+      "id": 1,
+      "en": {
+        "project-name": "List Pagination and Filtering",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "de": {
+        "project-name": "Paginierung und Filtern einer Liste",
+        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "live-link": "https://rliess.github.io/js-techdegree-project2/",
+      "github-link": "https://github.com/rliess/js-techdegree-project2",
+      "image-urls": [
+        "/static/img/proj2-landing.JPG",
+        "/static/img/proj2-screen1.jpg",
+        "/static/img/proj2-screen2.jpg",
+        "/static/img/proj2-screen3.jpg"
+      ]
+    }, {
+      "id": 2,
+      "en": {
+        "project-name": "Interactive Form",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "de": {
+        "project-name": "Interaktives Formular",
+        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "live-link": "https://rliess.github.io/js-techdegree-project3/",
+      "github-link": "https://github.com/rliess/js-techdegree-project3",
+      "image-urls": [
+        "/static/img/proj3-landing.JPG",
+        "/static/img/proj3-screen1.jpg",
+        "/static/img/proj3-screen2.jpg",
+        "/static/img/proj3-screen3.jpg"
+      ]
+    }, {
+      "id": 3,
+      "en": {
+        "project-name": "OOP Game Show App",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Object-Oriented Programming"
+        ]
+      },
+      "de": {
+        "project-name": "Aussprüche raten mit OOP",
+        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "live-link": "https://rliess.github.io/js-techdegree-project4/",
+      "github-link": "https://github.com/rliess/js-techdegree-project4",
+      "image-urls": [
+        "/static/img/proj4-landing.JPG",
+        "/static/img/proj4-screen1.jpg",
+        "/static/img/proj4-screen2.jpg",
+        "/static/img/proj4-screen3.jpg"
+      ]
+    }, {
+      "id": 4,
+      "en": {
+        "project-name": "Public API Requests",
+        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Fetch API"
+        ]
+      },
+      "de": {
+        "project-name": "Zugriff auf öffentliche APIs",
+        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      "live-link": "https://rliess.github.io/js-techdegree-project5/",
+      "github-link": "https://github.com/rliess/js-techdegree-project5",
+      "image-urls": [
+        "/static/img/proj5-landing.JPG",
+        "/static/img/proj5-screen1.jpg",
+        "/static/img/proj5-screen2.jpg",
+        "/static/img/proj5-screen3.jpg"
       ]
     }
   ]
