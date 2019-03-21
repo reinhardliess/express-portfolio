@@ -1,6 +1,13 @@
 extends layout.pug
 
 block content
+  nav.grid-container.portfolio-breadcrumb
+    p.spacer
+    div.lang-buttons
+      a(href='/languages/en')
+        img(src='/static/img/USA.svg', alt='flag of United States')
+      a(href='/languages/de')
+        img(src='/static/img/Germany.svg', alt='flag of Germany')
   article.grid-container.portfolio-intro
     div
 

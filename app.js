@@ -45,6 +45,12 @@ app.get('/about',	(req,	res)	=>	{
   res.render('about', { assets, language });
 });
 
+app.get('/projects/:id',	(req,	res)	=>	{
+  const { language } = req;
+  const { id } = req.params;
+  res.render('about', { assets, projects, language, id });
+});
+
 const	server	=	app.listen(port,	()	=>	{
   console.log('Listening on port %s',	server.address().port);
 })
