@@ -10,15 +10,24 @@
       "job-title": "Full-Stack JavaScript Developer",
       "portfolio-bio": "My bio",
       "contact-info": "Contact info",
+      "technologies": "Technologies",
       "skills": {
         "skills-text": "Skills",
         "skills-list": [
           "HTML",
           "CSS",
           "JavaScript",
+          "Object-Oriented Programming",
           "jQuery",
-          "Express"
+          "Node.js",
+          "Express",
+          "Pug",
+          "SQL",
+          "Git"
         ]
+      },
+      "error-handling": {
+        "404": "The resource $1 can't be found on host $2"
       }
     },
     "de": {
@@ -31,6 +40,7 @@
       "job-title": "Full-Stack JavaScript Entwickler",
       "portfolio-bio": "Meine Biografie",
       "contact-info": "Kontaktinformationen",
+      "technologies": "Technologien",
       "skills": {
         "skills-text": "Skills",
         "skills-list": [
@@ -40,6 +50,9 @@
           "jQuery",
           "Express"
         ]
+      },
+      "error-handling": {
+        "404": "Die Resource $1 kann auf dem Host $2 nicht gefunden werden."
       }
     }
   },
@@ -48,8 +61,8 @@
       "id": 0,
       "en": {
         "project-name": "A Random Quote Generator",
-        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
-        "technologies": [
+        "description": "Using vanilla JavaScript, HTML and CSS I created an app that displays a random quote every time a button is pressed or after an interval of 10 seconds if the button isn't clicked. Some quotes have additional properties, like categorization tags and year. The same quote won't be displayed twice consecutively and the background color is randomly changed when the quote changes - the hue is randomized whereas the brightness and saturation are constant to make sure that the quote is always easily readable.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript"
@@ -57,8 +70,8 @@
       },
       "de": {
         "project-name": "Ein Zufallsgenerator für Zitate",
-        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
-        "technologies": [
+        "description": "Mittels einfachem JavaScript, HTML und CSS habe ich eine App erstellt, die ein zufälliges Zitat jedes Mal anzeigt, wenn ein Button geklickt wurde oder nach einem Intervall von 10 Sekunden, falls kein Button geklickt wurde. Einige Zitate haben zusätzliche Eigenschaften, wie z. B. Kategorie oder Jahr. Dasselbe Zitat wird nicht zweimal hintereinander angezeigt und die Hintergrundfarbe wird zufällig geändert immer wenn auch das Zitat wechselt - der Farbton wird zufällig generiert, während die Helligkeit und Sättigung konstant gehalten werden, um sicherzustellen, dass das Zitat immer gut lesbar bleibt.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript"
@@ -77,8 +90,8 @@
       "id": 1,
       "en": {
         "project-name": "List Pagination and Filtering",
-        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
-        "technologies": [
+        "description": "Browsing long lists doesn't provide a good user experience, so this app enhances the usability of a web page by paginating a long list of students into groups of ten students, dynamically adding buttons to the bottom of the page as needed. It does this by using unobtrusive JavaScript and progressive enhancement, so that the web site still works if JavaScript is turned off or isn't working properly. The instant search box filters the student directory in real time, creating the appropriate number of pagination buttons; if there's no search result, an error message is displayed on the page.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript",
@@ -87,11 +100,12 @@
       },
       "de": {
         "project-name": "Paginierung und Filtern einer Liste",
-        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
-        "technologies": [
+        "description": "Lange Listen durchzublättern ist nicht sehr benutzerfreundlich, deswegen verbessert diese App die Benutzerfreundlichkeit einer Webseite durch Paginierung einer langen Studentenliste in Gruppen von zehn Studenten, es werden dynamisch Buttons am unteren Rand der Seite generiert. Es wird progressive Verbesserung und unobtrusive JavaScript benutzt, so dass die Webseite auch funktioniert, wenn JavaScript abgeschaltet ist oder nicht einwandfrei funktioniert. Das Suchfeld filtert die Studentenliste in Echtzeit und erstellt dynamisch Buttons für die Paginierung. Falls die Suche keine Treffer liefert, wird eine entsprechende Fehlermeldung angezeigt.",
+        "technologies-list": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "DOM manipulation"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project2/",
@@ -107,8 +121,8 @@
       "id": 2,
       "en": {
         "project-name": "Interactive Form",
-        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
-        "technologies": [
+        "description": "This project enhances an interactive registration form for a fictional conference. I used the popular jQuery JavaScript library to validate user input and provide helpful error messages when the user enters invalid information into the form fields. All validation is performed dynamically, controlled by one array which contains all necessary regular expressions, validation messages and additional program logic where necessary.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript",
@@ -118,11 +132,13 @@
       },
       "de": {
         "project-name": "Interaktives Formular",
-        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
-        "technologies": [
+        "description": "Dieses Projekt verbessert ein interaktives Anmeldungsformular für eine fiktionale Konferenz. Ich habe die beliebte JavaScript Bibliothek jQuery benutzt, um Benutzereingaben zu validieren und Anwender zu unterstützen, wenn ungültige Werte in Formularfelder eingegeben werden. Alle Validierungen erfolgen dynamisch, gesteuert von einem Array, das alle notwendigen regulären Ausdrücke, Mitteilungen für den Anwender und zusätzliche Programmlogik, wo notwendig, enthält.",
+        "technologies-list": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "jQuery",
+          "Reguläre Ausdrücke"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project3/",
@@ -137,9 +153,9 @@
     {
       "id": 3,
       "en": {
-        "project-name": "OOP Game Show App",
-        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
-        "technologies": [
+        "project-name": "Phrase Hunter Game",
+        "description": "I used JavaScript and OOP (Object-Oriented Programming) to create a word guessing game: \"Phrase Hunter.\" When starting the game, a hidden, random phrase (of a list of five phrases) is chosen, and put onto the gameboard using placeholders. The player tries to guess a letter either by mouse or keyboard. The game tracks which phrases were guessed correctly and lets the player continue until all 5 phrases are guessed correctly.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript",
@@ -147,12 +163,13 @@
         ]
       },
       "de": {
-        "project-name": "Aussprüche raten mit OOP",
-        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
-        "technologies": [
+        "project-name": "Redewendungen raten",
+        "description": "Ich habe JavaScript und OOP (Objekt-orientierte Programmierung) benutzt, um ein Spiel zum Raten von Redewendungen zu erstellen: \"Phrase Hunter\". Nach dem Starten des Spiels, wird eine versteckte, zufällig ausgewählte Redewendung (von einer Liste von fünf Redewendungen) ausgewählt und auf dem virtuellen Spielbrett mit Platzhaltern angezeigt. Der Spieler versucht einen Buchstaben der Redewendung zu erraten, entweder mit Maus oder Tastatur. Das Spiel führt Buch darüber, welche Redewendungen richtig geraten wurden und lässt den Spieler weitermachen, bis alle fünf Redewendungen erraten wurden.",
+        "technologies-list": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "Objekt-orientierte Programmierung"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project4/",
@@ -167,23 +184,27 @@
     {
       "id": 4,
       "en": {
-        "project-name": "Public API Requests",
-        "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
-        "technologies": [
+        "project-name": "An Employee Directory",
+        "description": "In this project I accessed the Random User API to retrieve information for 12 random \"employees\" and use that data to build a prototype for an employee directory of a fictional company called \"Awesome Startup\". When any part of an employee item in the directory is clicked, a modal window pops up displaying detailed information about that employee. I also implemented a search function by which the employee list can be filtered by name. Also, functionality has been added to switch back and forth between employees when the detail modal window is open, both in browse and search modes.",
+        "technologies-list": [
           "HTML",
           "CSS",
           "JavaScript",
           "Fetch API",
+          "JSON",
           "Object-Oriented Programming"
         ]
       },
       "de": {
-        "project-name": "Zugriff auf öffentliche APIs",
-        "description": "Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch Alles eröffnen und auseinander setzen, was jener Begründer der Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen, wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und Schmerzen eine grosse Lust sich zu verschaften suchen müsse.",
-        "technologies": [
+        "project-name": "Ein Mitarbeiterverzeichnis",
+        "description": "In diesem Projekt habe ich auf das Random User API zugegriffen, um Informationen von 12 zufällig ausgewählten \"Mitarbeitern\" abzurufen und diese Daten zu benutzen, um einen Prototyp eines Mitarbeiterverzeichnisses einer fiktionalen Firma, genannt \"Awesome Startup\", zu erstellen. Immer wenn auf eine \"Karteikarte\" eines Mitarbeiters geklickt wird, erscheint ein modales Fenster, das detaillierte Informationen über den Mitarbeiter enthält. Ich habe auch eine Suchfunktion implementiert, wodurch die Mitarbeiterliste nach Namen gefiltert werden kann. Außerdem wurde die notwendige Funktionalität erstellt, um vorwärts und rückwärts zu blättern, während das modale Fenster angezeigt wird, sowohl im normalen Modus, als auch wenn ein Filter aktiv ist.",
+        "technologies-list": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "Fetch API",
+          "JSON",
+          "Objekt-orientierte Programmierung"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project5/",

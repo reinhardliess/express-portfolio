@@ -19,15 +19,15 @@ block content
 
       //- display used technologies for project
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 #{projects[id][language]['technologies']['technologies-text']}
+        h6 #{assets[language]['technologies']}
 
         ul
-          each technology in projects[id][language]['technologies']['technologies-list']
+          each technology in projects[id][language]['technologies-list']
             li= technology
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
         a.button.expanded(href=`${projects[id]['live-link']}`) Live Demo
-        a.button.expanded(href=`${projects[id]['github-link']}`) GitHub Repo
+        a.button.expanded(href=`${projects[id]['github-link']}`) GitHub
 
     //- display screenshots, skip landing page image at index 0
     each url in projects[id]['image-urls'].filter((element, index) => index > 0 )
