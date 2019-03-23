@@ -5,34 +5,25 @@ block content
     p.spacer
     div.lang-buttons
       a(href='/languages/en')
-        img(src='/static/img/USA.svg', alt='flag of United States')
+        img(src='/static/img/USA.svg', alt='flag of the United States')
       a(href='/languages/de')
         img(src='/static/img/Germany.svg', alt='flag of Germany')
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together!
       h1 #{assets[language]['portfolio-title']}
 
-      //- Add a description for your portfolio, what this project is, its purpose, what it's supposed to accomplish, etc.
       p.lead.text-light
         | #{assets[language]['portfolio-description']}
   article.grid-container.portfolio-index
 
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.
-
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the images' src and the projects title.
-
-      //- Here's what the Pug for each project example should look like.
-
-      //- a(href='#')
-      //-   img.thumbnail(src='https://placehold.it/550x550')
-      //-   h5 Title
+      //- display screenshots for all projects in descending order
+      //- NB: use of spread operator is necessary because Array.reverse() is destructive (why, JavaScript, why)
       each project, index in [...projects].reverse()
         .cell
-          a(href=`/projects/${index}`)
+          a(href=`/projects/${projects.length - 1 - index}`)
             img.thumbnail(src=`${project['image-urls'][0]}`)
             h5 #{project[language]['project-name']}
 
