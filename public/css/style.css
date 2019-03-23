@@ -151,6 +151,7 @@ a:hover{
 
 /* RL - additional styles */
 
+/* language buttons */
 .lang-buttons {
   float: right;
   padding-top: 6px;
@@ -161,12 +162,20 @@ a:hover{
 .lang-buttons img {
   width: 32px;
   height: auto;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.lang-buttons img:hover {
+  opacity: 1;
 }
 
 .back-button, p.spacer {
   display: inline-block;
   padding-top: 15px;
 }
+
+/* error styles */
 
 .show-error p {
   font-family: monospace;
@@ -180,3 +189,79 @@ a:hover{
 .show-error h2 {
   font-size: 1.2em;
 }
+
+.portfolio-index img.thumbnail {
+  opacity: 0.7;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s
+}
+
+.portfolio-index img.thumbnail:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.project-link {
+  text-align: left;
+  display: block;
+  transition: color 0.5s;
+  margin-bottom: 5px;
+}
+
+.ion-icon {
+  display: inline-block;
+}
+
+.project-link ion-icon {
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.project-link span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.project-link:first-of-type:hover {
+  color: #33a532;
+}
+
+a.project-link:nth-of-type(2):hover {
+  color: #6e5494;
+}
+
+.portfolio-meta h6 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.portfolio-meta ul {
+  list-style-type: none;
+}
+
+.portfolio-meta li, a.project-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.soc-med {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+.soc-med a ion-icon {
+  transition: color 0.5s;
+  padding-right: 10px;
+}
+
+.soc-med a ion-icon[name=logo-github]:hover {
+  color: #6e5494;
+}
+
+.soc-med a ion-icon[name=logo-twitter]:hover {
+  color: #1da1f2;
+}
+

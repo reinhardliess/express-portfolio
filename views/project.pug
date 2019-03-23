@@ -14,7 +14,7 @@ block content
 
         h1 #{projects[id][language]['project-name']}
 
-        p.lead.text-light
+        p.lead.text-light.animated.fadeIn
           | #{projects[id][language]['description']}
 
       //- display used technologies for project
@@ -26,8 +26,12 @@ block content
             li= technology
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=`${projects[id]['live-link']}`) Live Demo
-        a.button.expanded(href=`${projects[id]['github-link']}`) GitHub
+        a.project-link(href=`${projects[id]['live-link']}`, target='_blank')
+          ion-icon(name='play-circle')
+          span Demo
+        a.project-link(href=`${projects[id]['github-link']}`, target='_blank')
+          ion-icon(name='logo-github')
+          span GitHub
 
     //- display screenshots, skip landing page image at index 0
     each url in projects[id]['image-urls'].filter((element, index) => index > 0 )

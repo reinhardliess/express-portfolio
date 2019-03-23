@@ -39,7 +39,10 @@ block content
 
         //- Add URLs to the hrefs below to link to your social media accounts.
         //- optionally make dynamic, add animated buttons with Twitter/Github logo
-        a.button.expanded(href='https://github.com/rliess') GitHub
-        a.button.expanded(href='https://twitter.com/rliessdev') Twitter
+        div.soc-med
+          a(href='https://twitter.com/rliessdev', target='_blank')
+            ion-icon(name='logo-twitter')
+          a(href='https://github.com/rliess', target='_blank')
+            ion-icon(name='logo-github')
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← #{assets[language]['back-button']}
