@@ -17,7 +17,7 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "Object-Oriented Programming",
+          "OOP",
           "jQuery",
           "Node.js",
           "Express",
@@ -47,8 +47,13 @@
           "HTML",
           "CSS",
           "JavaScript",
+          "OOP",
           "jQuery",
-          "Express"
+          "Node.js",
+          "Express",
+          "Pug",
+          "SQL",
+          "Git"
         ]
       },
       "error-handling": {
@@ -105,7 +110,7 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "DOM manipulation"
+          "DOM Manipulation"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project2/",
@@ -159,7 +164,7 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "Object-Oriented Programming"
+          "OOP"
         ]
       },
       "de": {
@@ -169,7 +174,7 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "Objekt-orientierte Programmierung"
+          "OOP"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project4/",
@@ -192,7 +197,7 @@
           "JavaScript",
           "Fetch API",
           "JSON",
-          "Object-Oriented Programming"
+          "OOP"
         ]
       },
       "de": {
@@ -204,7 +209,7 @@
           "JavaScript",
           "Fetch API",
           "JSON",
-          "Objekt-orientierte Programmierung"
+          "OOP"
         ]
       },
       "live-link": "https://rliess.github.io/js-techdegree-project5/",
