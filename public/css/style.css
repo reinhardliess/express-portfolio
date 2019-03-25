@@ -1,3 +1,8 @@
+/* brand colors */
+:root {
+  --color-github-purple: #6e5494;
+  --color-twitter-blue: #38A1F3;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -100,6 +105,7 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  color: #333;
 }
 
 .portfolio-intro p{
@@ -151,12 +157,16 @@ a:hover{
 
 /* RL - additional styles */
 
+.portfolio-project {
+  background-color: #fafafa;
+}
+
+
 /* language buttons */
 .lang-buttons {
   float: right;
   padding-top: 6px;
   height: 50px;
-  /* border: 1px solid red; */
 }
 
 .lang-buttons img {
@@ -190,6 +200,7 @@ a:hover{
   font-size: 1.2em;
 }
 
+/* project screenshots on landing page */
 .portfolio-index img.thumbnail {
   opacity: 0.7;
   transform: scale(1);
@@ -201,6 +212,12 @@ a:hover{
   opacity: 1;
 }
 
+/* icons on project and about pages */
+
+.ion-icon {
+  display: inline-block;
+}
+
 .project-link {
   text-align: left;
   display: block;
@@ -208,9 +225,6 @@ a:hover{
   margin-bottom: 5px;
 }
 
-.ion-icon {
-  display: inline-block;
-}
 
 .project-link ion-icon {
   font-size: 2em;
@@ -228,7 +242,7 @@ a.project-link:first-of-type:hover {
 }
 
 a.project-link:nth-of-type(2):hover {
-  color: #6e5494;
+  color: var(--color-github-purple);
 }
 
 .portfolio-meta h6 {
@@ -246,6 +260,8 @@ a.project-link:nth-of-type(2):hover {
   color: #555;
 }
 
+/* social media icons on about page */
+
 .soc-med {
   text-align: left;
   padding-left: 20px;
@@ -258,10 +274,10 @@ a.project-link:nth-of-type(2):hover {
 }
 
 .soc-med a ion-icon[name=logo-github]:hover {
-  color: #6e5494;
+  color: var(--color-github-purple);
 }
 
 .soc-med a ion-icon[name=logo-twitter]:hover {
-  color: #1da1f2;
+  color: var(--color-twitter-blue);
 }
 
