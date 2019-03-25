@@ -2,12 +2,8 @@ extends layout.pug
 
 block content
   nav.grid-container.portfolio-breadcrumb
-    a.back-button(href='/') ← #{assets[language]['back-button']}
-    div.lang-buttons
-      a(href='/languages/en')
-        img(src='/static/img/USA.svg', alt='flag of United States')
-      a(href='/languages/de')
-        img(src='/static/img/Germany.svg', alt='flag of Germany')
+    include back-button.pug
+    include lang-buttons.pug
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
