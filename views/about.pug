@@ -12,33 +12,26 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
         h1 #{assets[language]['name']}
 
-        //- Feel free personalize the title below
         p.lead.text-light
           | #{assets[language]['job-title']}
 
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
             | #{assets[language]['portfolio-bio']}
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 #{assets[language]['skills']['skills-text']}
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
           each skill in assets[language]['skills']['skills-list']
             li= skill
         h6 #{assets[language]['contact-info']}
 
-        //- Add your own contact info
         ul
-          li 555-555-1234
-          li email@email.com
+          li reinhard.liess@gmail.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        //- optionally make dynamic, add animated buttons with Twitter/Github logo
+        //- Social media accounts
         div.soc-med
           a(href='https://twitter.com/rliessdev', target='_blank')
             ion-icon(name='logo-twitter')
