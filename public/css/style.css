@@ -157,6 +157,11 @@ a:hover{
 
 /* RL - additional styles */
 
+.project-text {
+  font-size: 110%;
+  line-height: 1.6;
+}
+
 .portfolio-project {
   background-color: #fafafa;
 }

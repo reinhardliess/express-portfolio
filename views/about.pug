@@ -13,9 +13,9 @@ block content
         p.lead.text-light
           | #{assets[language]['job-title']}
 
-        .portfolio-bio
+        .portfolio-bio.animated.fadeIn
           p
-            | #{assets[language]['portfolio-bio']}
+            | !{assets[language]['portfolio-bio']}
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 #{assets[language]['skills']['skills-text']}
 
@@ -25,7 +25,8 @@ block content
         h6 #{assets[language]['contact-info']}
 
         ul
-          li reinhard.liess@gmail.com
+          li &#9742; +49 176 76987529
+          li &#9993; reinhard.liess@gmail.com
 
         //- Social media accounts
         div.soc-med
