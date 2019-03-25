@@ -7,7 +7,9 @@ The site contains a modern landing page, an about page with contact info, info a
 
 ## Installation
 
-
+* Download or clone from Github
+* run `npm install`
+* run `npm start` to start the server. The website can then be accessed locally by pointing the web browser to `localhost:3000`
 
 ## Basic Project requirements
 
@@ -34,5 +36,24 @@ The site contains a modern landing page, an about page with contact info, info a
   * transitions or animations
   * add a logo
 
-
 ## Some Additional remarks
+
+### Localization in English and German
+
+* The language of the site can be switched at any time by using one of two flag icons in the upper right corner of the page
+* The data.json file doesn't only store information about all projects but also all other assets that are needed to be localized
+* The core language functionality is provided by [express-request-language](https://github.com/tinganho/express-request-language) middleware. The set language is retrieved from a cookie, or if not available from the _Accept-Language_ HTTP header
+
+### Error Handling
+
+* If the user changes the browser's url to a wrong project-id (e.g. /projects/22) for the project route, the app will redirect to the root route and log a message on the server
+* If the app is directed to a non-existant route(404) a detailed error message is displayed on the page (error message, HTTP status code, stack trace) using the error.pug template. Other errors than 404 are handled the same way.
+
+### Design Changes and Additions
+
+* Two language icons to switch between English and German at any time
+* Transition hover effects added to all icons/buttons
+* Font changes to skills section (about page), technologies section (project pages) and error message to display text as monospace
+* FadeIn animation added to big blocks of text (using animate.css)
+* Change of background color for about/project pages
+
