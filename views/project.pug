@@ -20,10 +20,10 @@ block content
           each technology in projects[id][language]['technologies-list']
             li= technology
 
-        a.project-link(href=`${projects[id]['live-link']}`, target='_blank')
+        a.project-link(href=`${projects[id]['live-link']}`, target='_blank', rel='noopener noreferrer')
           ion-icon(name='play-circle')
           span Demo
-        a.project-link(href=`${projects[id]['github-link']}`, target='_blank')
+        a.project-link(href=`${projects[id]['github-link']}`, target='_blank', rel='noopener noreferrer')
           ion-icon(name='logo-github')
           span GitHub
 
