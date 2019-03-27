@@ -2,13 +2,13 @@
   "assets": {
     "en": {
       "portfolio-title": "My Portfolio",
-      "bio-sidebar": "A short abstract about me",
-      "portfolio-description": "Some text",
+      "bio-sidebar": "I am a full-stack JavaScript developer from Gruenstadt, Germany. I am passionate about JavaScript and building web applications.",
+      "portfolio-description": "Welcome to my portfolio! View more information about each project by clicking on an image. Feel free to get in touch. I would love to hear from you!",
       "back-button": "Back",
       "learn-more": "Learn More",
       "name": "Reinhard Liess",
       "job-title": "Full-Stack JavaScript Developer",
-      "portfolio-bio": "My bio",
+      "portfolio-bio": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. <br><br>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
       "contact-info": "Contact info",
       "technologies": "Technologies",
       "skills": {
@@ -117,7 +117,6 @@
       "github-link": "https://github.com/rliess/js-techdegree-project2",
       "image-urls": [
         "/static/img/proj2-landing.JPG",
-        "/static/img/proj2-screen1.jpg",
         "/static/img/proj2-screen2.jpg",
         "/static/img/proj2-screen3.jpg"
       ]
@@ -217,7 +216,6 @@
       "image-urls": [
         "/static/img/proj5-landing.JPG",
         "/static/img/proj5-screen1.jpg",
-        "/static/img/proj5-screen2.jpg",
         "/static/img/proj5-screen3.jpg"
       ]
     }
