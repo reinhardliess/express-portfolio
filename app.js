@@ -50,12 +50,12 @@ app.get('/about',	(req,	res)	=>	{
 // projects route
 app.get('/projects/:id',	(req,	res)	=>	{
   const { language } = req;
-  const { id } = req.params;
+  const { id } = parseInt(req.params);
   // redirects to root, if project id is not within range
   if (id >= 0 && id <= projects.length - 1) {
     res.render('project', { assets, projects, language, id });
   } else {
-    console.log(`Attempt to access non-existant resource: /projects/${id}.`)
+    console.error(`Attempt to access non-existant resource: /projects/${id}.`)
     res.redirect('/')
   }
 });
@@ -68,7 +68,7 @@ app.use((req, res, next) => {
 
   const error = new Error(errMsg);
   error.status = 404;
-  console.log(errMsg);
+  console.error(errMsg);
   next(error);
 });
 
