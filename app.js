@@ -50,7 +50,7 @@ app.get('/about',	(req,	res)	=>	{
 // projects route
 app.get('/projects/:id',	(req,	res)	=>	{
   const { language } = req;
-  const { id } = parseInt(req.params);
+  const { id } = req.params;
   // redirects to root, if project id is not within range
   if (id >= 0 && id <= projects.length - 1) {
     res.render('project', { assets, projects, language, id });
