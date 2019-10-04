@@ -16,7 +16,7 @@ block content
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
       //- display screenshots for all projects in descending order
-      //- NB: use of spread operator is necessary because Array.reverse() is destructive (why, JavaScript, why)
+      //- NB: use of spread operator is necessary because Array.reverse() mutates the original array (why, JavaScript, why)
       each project, index in [...projects].reverse()
         .cell
           a(href=`/projects/${projects.length - 1 - index}`)
