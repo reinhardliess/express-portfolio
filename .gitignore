@@ -3,7 +3,7 @@ resources/
 
 # vscode
 tempCodeRunnerFile.*
-.vscode/settings.json
+.vscode/
 *.http
 
 # Node.js
