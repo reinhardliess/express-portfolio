@@ -1,6 +1,6 @@
 # JavaScript Techdegree Project #6: Static Node.js and Express Site
 
-A live version of this project can be found [here]().
+A live version of this project can be found [here](). Please note that the app is in hibernation mode and may take a couple of seconds more to load.
 
 The goal of this project was to create a portfolio site to showcase the projects I've built.
 The site contains a modern landing page, an about page with contact info, info about myself, and a series of project pages to show off and detail the first five projects from the Techdegree.
@@ -52,7 +52,7 @@ The site contains a modern landing page, an about page with contact info, info a
 ### Design Changes and Additions
 
 * Two language icons to switch between English and German at any time
-* Transition hover effects added to all icons/buttons
+* Transition hover effects added to all icons/buttons using Github and Twitter brand colors
 * Font changes to skills section (about page), technologies section (project pages) and error message to display text as monospace
 * FadeIn animation added to big blocks of text (using animate.css)
 * Change of background color for about/project pages
