@@ -87,7 +87,7 @@
       "live-link": "https://rliess.github.io/js-techdegree-project1/",
       "github-link": "https://github.com/rliess/js-techdegree-project1",
       "image-urls": [
-        "/static/img/proj1-landing.JPG",
+        "/static/img/proj1-landing.jpg",
         "/static/img/proj1-screen1.jpg",
         "/static/img/proj1-screen2.jpg",
         "/static/img/proj1-screen3.jpg"
@@ -118,7 +118,7 @@
       "live-link": "https://rliess.github.io/js-techdegree-project2/",
       "github-link": "https://github.com/rliess/js-techdegree-project2",
       "image-urls": [
-        "/static/img/proj2-landing.JPG",
+        "/static/img/proj2-landing.jpg",
         "/static/img/proj2-screen2.jpg",
         "/static/img/proj2-screen3.jpg"
       ]
@@ -150,7 +150,7 @@
       "live-link": "https://rliess.github.io/js-techdegree-project3/",
       "github-link": "https://github.com/rliess/js-techdegree-project3",
       "image-urls": [
-        "/static/img/proj3-landing.JPG",
+        "/static/img/proj3-landing.jpg",
         "/static/img/proj3-screen1.jpg",
         "/static/img/proj3-screen2.jpg",
         "/static/img/proj3-screen3.jpg"
@@ -181,7 +181,7 @@
       "live-link": "https://rliess.github.io/js-techdegree-project4/",
       "github-link": "https://github.com/rliess/js-techdegree-project4",
       "image-urls": [
-        "/static/img/proj4-landing.JPG",
+        "/static/img/proj4-landing.jpg",
         "/static/img/proj4-screen1.jpg",
         "/static/img/proj4-screen2.jpg",
         "/static/img/proj4-screen3.jpg"
@@ -216,7 +216,7 @@
       "live-link": "https://rliess.github.io/js-techdegree-project5/",
       "github-link": "https://github.com/rliess/js-techdegree-project5",
       "image-urls": [
-        "/static/img/proj5-landing.JPG",
+        "/static/img/proj5-landing.jpg",
         "/static/img/proj5-screen1.jpg",
         "/static/img/proj5-screen3.jpg"
       ]
