@@ -1,6 +1,6 @@
 # JavaScript Techdegree Project #6: Static Node.js and Express Site
 
-A live version of this project can be found [here](). Please note that the app is in hibernation mode and may take a couple of seconds to load.
+A live version of this project can be found [here](https://rard3954-fsjs-proj6.herokuapp.com/). Please note that the app is in hibernation mode and may take a couple of seconds to load.
 
 The goal of this project was to create a portfolio site to showcase the projects I've built.
 The site contains a modern landing page, an about page with contact info, info about myself, and a series of project pages to show off and detail the first five projects from the Techdegree.
