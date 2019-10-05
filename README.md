@@ -54,6 +54,5 @@ The site contains a modern landing page, an about page with contact info, info a
 * Two language icons to switch between English and German at any time
 * Transition hover effects added to all icons/buttons using Github and Twitter brand colors
 * Font changes to skills section (about page), technologies section (project pages) and error message to display text as monospace
-* FadeIn animation added to big blocks of text (using animate.css)
+* FadeIn animation added to big blocks of text (using [animate.css](https://github.com/daneden/animate.css))
 * Change of background color for about/project pages
-
