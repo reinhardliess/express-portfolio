@@ -15,7 +15,7 @@ const cookieParser = require('cookie-parser');
 const requestLanguage = require('express-request-language');
 const { assets, projects } = require('./data.json');
 
-const {port = 3000} = process.env;
+const port = process.env.PORT || 3000;
 const	app	=	express();
 
 // Register required middleware
