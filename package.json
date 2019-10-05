@@ -2,6 +2,9 @@
   "name": "js-techdegree-project6",
   "version": "1.0.0",
   "description": "A Static Node and Express Site - Developer Portfolio",
+  "engines": {
+    "node": "10.x"
+  },
   "main": "app.js",
   "private": true,
   "scripts": {
