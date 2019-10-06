@@ -11,7 +11,7 @@ block content
         h1 #{projects[id][language]['project-name']}
 
         p.project-text.text-light.animated.fadeIn
-          | #{projects[id][language]['description']}
+          | !{projects[id][language]['description']}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 #{assets[language]['technologies']}

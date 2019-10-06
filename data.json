@@ -107,7 +107,7 @@
       },
       "de": {
         "project-name": "Paginierung und Filtern einer Liste",
-        "description": "Lange Listen durchzublättern ist nicht sehr benutzerfreundlich, deswegen verbessert diese App die Benutzerfreundlichkeit einer Webseite durch Paginierung einer langen Studentenliste in Gruppen von zehn Studenten, es werden dynamisch Buttons am unteren Rand der Seite generiert. Es wird progressive Verbesserung und unobtrusive JavaScript benutzt, so dass die Webseite auch funktioniert, wenn JavaScript abgeschaltet ist oder nicht einwandfrei funktioniert. Das Suchfeld filtert die Studentenliste in Echtzeit und erstellt dynamisch Buttons für die Paginierung. Falls die Suche keine Treffer liefert, wird eine entsprechende Fehlermeldung angezeigt.",
+        "description": "Lange Listen durchzublättern ist nicht sehr benutzerfreundlich, deswegen verbessert diese App die Benutzerfreundlichkeit einer Webseite durch Paginierung einer langen Studentenliste in Gruppen von zehn Studenten &ndash; es werden dynamisch Buttons am unteren Rand der Seite generiert. Es wird progressive Verbesserung und unobtrusives JavaScript benutzt, so dass die Webseite auch funktioniert, wenn JavaScript abgeschaltet ist oder nicht einwandfrei funktioniert. Das Suchfeld filtert die Studentenliste in Echtzeit und erstellt dynamisch Buttons für die Paginierung. Falls die Suche keine Treffer liefert, wird eine entsprechende Fehlermeldung angezeigt.",
         "technologies-list": [
           "HTML",
           "CSS",
